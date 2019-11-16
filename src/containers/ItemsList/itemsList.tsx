@@ -50,7 +50,7 @@ class ItemsList extends React.Component<ItemsListProps, State> {
     super(props);
     this.state = {
       error: undefined,
-      sortOrder: "Ascending",
+      sortOrder: "Descending",
       sortList: [
         { key: "completedDate", value: "Completed Date" },
         { key: "year", value: "Year" },
